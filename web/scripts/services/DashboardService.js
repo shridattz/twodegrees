@@ -16,7 +16,7 @@ DashboardService.prototype = {
         });
     
     
-    }
+    },
 
 
-}
+};
