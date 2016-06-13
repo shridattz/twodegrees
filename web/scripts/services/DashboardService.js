@@ -6,7 +6,7 @@ var DashboardService = function(configService, restServiceProxy ) {
 
 DashboardService.prototype = {
     
-    topscorer : function($scope){
+    topscorer : function(onSuccess,onError){
         var url = this.config.siteUrl;
         return this.restServiceProxy.get(url ,{ 
             onSuccess : onSuccess,
